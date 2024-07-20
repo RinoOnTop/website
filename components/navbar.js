@@ -39,18 +39,17 @@ export default function Navbar() {
                 </button>
             </div>
             <div
-                className={`${
-                    active ? "flex" : "hidden"
-                }   md:ml-auto md:flex flex-wrap flex-col md:flex-row md:space-x-4 items-center w-full pt-2 md:pt-0 md:w-auto text-lg justify-center font-semibold`}
+                className={`${active ? "flex" : "hidden"
+                    }   md:ml-auto md:flex flex-wrap flex-col md:flex-row md:space-x-4 items-center w-full pt-2 md:pt-0 md:w-auto text-lg justify-center font-semibold`}
             >
                 <NavLink href="/">
                     <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
                         Home
                     </a>
                 </NavLink>
-                <NavLink href="/work">
+                <NavLink href="/experience">
                     <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
-                        Work
+                        Experience
                     </a>
                 </NavLink>
                 <NavLink href="/about">

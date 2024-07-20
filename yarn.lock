@@ -250,6 +250,11 @@ browserslist@^4.21.4, "browserslist@>= 4.21.0":
     node-releases "^2.0.6"
     update-browserslist-db "^1.0.9"
 
+bulma@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/bulma/-/bulma-1.0.1.tgz"
+  integrity sha512-+xv/BIAEQakHkR0QVz+s+RjNqfC53Mx9ZYexyaFNFo9wx5i76HXArNdwW7bccyJxa5mgV/T5DcVGqsAB19nBJQ==
+
 camelcase-css@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
@@ -750,6 +755,11 @@ postcss@8.4.14:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+prettier@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-3.3.3.tgz"
+  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
 prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"

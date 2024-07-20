@@ -1,5 +1,5 @@
-import Layout from "../layout/layout";
 import { motion } from "framer-motion";
+import Layout from "../layout/layout";
 
 export default function About() {
     return (
@@ -14,7 +14,7 @@ export default function About() {
                             <div className="container lg:w-3/5 w-11/12 mx-auto mt-4">
                                 <div className="text-left md:text-justify space-y-6 text-lg font-medium text-gray-200">
                                     <p>
-                                        Hey, I'm Robert - a full-stack developer from the Netherlands with approximately three years of back-end and five years of front-end development experience. Nowadays, I mainly use Next.js, TailwindCSS and Python for my projects, but I have used different tools and frameworks in the past. I also love the open-source community, <a className="text-gray-200 underline" href="https://github.com/Wallvon/website" target="_blank" rel="noopener noreferrer">and this website is open-source too :)</a>. My coding knowledge is mostly based on many years of experimenting and trying, and I am happy to have made it this far.
+                                        Hey, I'm Robert - a full-stack developer from the Netherlands with approximately three years of back-end and five years of front-end development experience. Nowadays, I mainly use Next.js, TailwindCSS and Python for my projects, but I have used different tools and frameExperiences in the past. I also love the open-source community, <a className="text-gray-200 underline" href="https://github.com/Wallvon/website" target="_blank" rel="noopener noreferrer">and this website is open-source too :)</a>. My coding knowledge is mostly based on many years of experimenting and trying, and I am happy to have made it this far.
                                     </p>
                                     <div className="space-y-2">
                                         <p>
@@ -29,7 +29,7 @@ export default function About() {
                                             <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-18181b?style=for-the-badge&logo=css3&logoColor=F43F5E" />
                                         </div>
                                         <p>
-                                            I can use the following frameworks and libraries fluently:
+                                            I can use the following frameExperiences and libraries fluently:
                                         </p>
                                         <div className="grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
                                             <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind CSS-18181b?style=for-the-badge&logo=tailwindcss&logoColor=F43F5E" />

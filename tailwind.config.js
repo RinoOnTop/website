@@ -11,6 +11,9 @@ module.exports = {
       yellow: colors.yellow,
       sky: colors.sky,
     },
+    container: {
+      padding: '1rem',
+    },
     extend: {
       fontFamily: {
         'sans': ['Space Grotesk']

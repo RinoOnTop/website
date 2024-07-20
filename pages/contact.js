@@ -1,15 +1,15 @@
-import {useState} from 'react';
-import Layout from "../layout/layout";
-import {motion} from "framer-motion";
-import { siGithub, siDiscord, siTwitter, siInstagram } from 'simple-icons/icons';
+import { motion } from "framer-motion";
 import { Linkedin, Mail } from 'lucide-react';
+import { useState } from 'react';
+import { siDiscord, siGithub, siInstagram, siTwitter } from 'simple-icons/icons';
+import Layout from "../layout/layout";
 
 export default function Contact() {
-    const initialDiscordText = 'Roberto#1762';
+    const initialDiscordText = '_rin0';
     const [discordText, setDiscordText] = useState(initialDiscordText);
 
     function handleDiscordClick() {
-        navigator.clipboard.writeText("Roberto#1762").then(r => {
+        navigator.clipboard.writeText("_rin0").then(r => {
             setDiscordText('Copied to clipboard!');
 
             setTimeout(() => {
@@ -61,7 +61,7 @@ export default function Contact() {
                                             <path d={siDiscord.path} />
                                         </svg>
                                         <span className='tooltip bg-gray-800 text-white rounded shadow-lg'>{discordText}</span>
-                                        <p className="text-white text-xl overflow-ellipsis">Roberto#1762</p>
+                                        <p className="text-white text-xl overflow-ellipsis">_rin0</p>
                                     </button>
                                     <a href="https://www.linkedin.com/in/robert-stokreef/" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <Linkedin fill="currentColor" strokeWidth="0" className="mx-auto max-h-12" size={48}>

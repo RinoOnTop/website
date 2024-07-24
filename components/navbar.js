@@ -52,12 +52,8 @@ export default function Navbar() {
                         Experience
                     </a>
                 </NavLink>
-                <NavLink href="/skills">
-                    <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
-                        skills
-                    </a>
-                </NavLink>
-                <NavLink href="/Reviews">
+
+                <NavLink href="/reviews">
                     <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
                         Reviews
                     </a>

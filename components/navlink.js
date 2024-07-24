@@ -1,6 +1,6 @@
-import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import React from 'react'
 
 const NavLink = ({ href, children }) => {
     const router = useRouter()
@@ -14,5 +14,4 @@ const NavLink = ({ href, children }) => {
 
     return <Link href={href} legacyBehavior>{React.cloneElement(children, { className })}</Link>;
 }
-
 export default NavLink

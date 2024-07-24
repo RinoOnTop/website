@@ -101,7 +101,7 @@ export default function Experience() {
                     <div className="bg-gray-800 text-white p-5 rounded mb-5">
 
                         <div className="justify-between flex flex-grow text-center">
-                            <h2 className="text-4xl">Freelancer</h2>
+                            <h2 className="text-4xl">Sysadmin Freelancer</h2>
                             <div className='flex justify-between'>
                                 <h2 className="text-center text-white text-lg p-2 text-3x1">Aug 2022 - Present</h2>
                             </div>

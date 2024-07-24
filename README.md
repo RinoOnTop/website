@@ -1,8 +1,10 @@
 ![GitHub](https://img.shields.io/github/license/Wallvon/website?color=A42E2B&logo=gnu&logoColor=white&style=for-the-badge)
 
-# Website by Robert S.
+# Website by Rino.
 
-A new portfolio I made with Next.js and TailwindCSS. I did not use any design tool (like Figma) to make this since I honestly suck at design.
+### Credits to Robert S for Base website
+
+## I really had fun working in this repo to build it in my own vision
 
 ## Tools and services used
 
@@ -36,21 +38,11 @@ A new portfolio I made with Next.js and TailwindCSS. I did not use any design to
                 <b>Framer Motion</b>
             </sub>
         </a>
-        <br/>
+        <br/>   
     </td>
-    <td align="center">
-        <a href="https://pages.cloudflare.com/">
-            <img src="https://simpleicons.org/icons/cloudflare.svg" width="100px;" alt="Cloudflare Pages"/>
-            <br/>
-            <sub>
-                <b>Cloudflare Pages</b>
-            </sub>
-        </a>
-        <br/>
-    </td>
+   
   </tr>
 </table>
-
 
 ## License
 

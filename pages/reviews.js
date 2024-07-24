@@ -2,8 +2,8 @@
 import { motion } from "framer-motion";
 import { useState } from 'react';
 import Modal from '../components/modal';
+import { testimonials } from "../data/testimonials";
 import Layout from "../layout/layout";
-import { testimonials } from "../pages/testimonials";
 
 const StarRating = ({ rate }) => {
     const stars = Array(5).fill(0).map((_, i) => (

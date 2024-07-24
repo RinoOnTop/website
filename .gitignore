@@ -14,7 +14,7 @@
 
 # production
 /build
-/pages/testimonials.js
+/data/testimonials.js
 # misc
 .DS_Store
 *.pem

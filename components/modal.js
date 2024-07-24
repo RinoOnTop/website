@@ -52,7 +52,7 @@ const Modal = ({ isOpen, onClose, onSubmit }) => {
                                 required
                             />
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <label className="block mb-2">Rating</label>
                             <select
                                 value={rate}
@@ -65,8 +65,11 @@ const Modal = ({ isOpen, onClose, onSubmit }) => {
                                     </option>
                                 ))}
                             </select>
+
                         </div>
-                        <div className="flex justify-center">
+                        <p>Make sure to Write your Discord name to recieve a cookie </p>
+
+                        <div className="flex justify-center pt-3">
 
                             <button
                                 type="submit"

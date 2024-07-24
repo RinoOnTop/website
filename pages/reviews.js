@@ -85,7 +85,10 @@ export default function Reviews() {
                         {testimonials.map(({ id, name, alt, review, colSpan, rate }) => (
                             <ReviewCard key={id} name={name} alt={alt} review={review} colSpan={colSpan} rate={rate} />
                         ))}
+
+
                     </div>
+                    <h1 className="text-center">This page will probably get more updates to fit all reviews 😭</h1>
                 </div>
                 <Modal
                     isOpen={isModalOpen}

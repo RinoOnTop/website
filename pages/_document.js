@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -9,10 +9,14 @@ class MyDocument extends Document {
     render() {
         return (
             <Html lang="en">
-                <Head />
+                <Head>
+
+                    <script defer data-domain="rinoo.tech" src="https://data.rinoo.tech/js/script.js"></script>
+
+                </Head>
                 <body className="bg-gray-900 text-white">
-                <Main />
-                <NextScript />
+                    <Main />
+                    <NextScript />
                 </body>
             </Html>
         )

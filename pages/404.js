@@ -19,6 +19,9 @@ export default function Custom404() {
                     <a href="https://discord.com/users/896089166738247721" className={styles.centerAltText} target="_blank" rel="noopener noreferrer">
                         Discord
                     </a>
+                    <div>
+                        <a href="/.." className="text-white mt-7 pt-7 hover:text-sky-500 text-xl">Back to main Site</a>
+                    </div>
 
                 </div>
 

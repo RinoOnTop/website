@@ -1,0 +1,55 @@
+/* styles/BackgroundText.module.css */
+.background {
+  position: relative;
+  height: 100vh;
+  overflow:hidden;
+  background-color: #000;
+}
+
+.textPattern {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  white-space: nowrap;
+  font-size: 2rem;
+  color: #918181;
+  line-height: 1.2;
+  opacity: 0.1;
+  text-align: center;
+  width: 200vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textPattern span {
+  display: block;
+}
+
+.textPattern span:nth-child(odd) {
+  color: rgb(255, 255, 255)
+}
+
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+
+.centerAltText {
+  position: absolute;
+  top: 87%;
+  left: 80%;
+  font-style: normal;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  color: rgb(0, 101, 252);
+  text-align: center;
+}

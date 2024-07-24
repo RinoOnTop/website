@@ -52,9 +52,14 @@ export default function Navbar() {
                         Experience
                     </a>
                 </NavLink>
-                <NavLink href="/about">
+                <NavLink href="/skills">
                     <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
-                        About
+                        skills
+                    </a>
+                </NavLink>
+                <NavLink href="/Reviews">
+                    <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
+                        Reviews
                     </a>
                 </NavLink>
                 <NavLink href="/contact">
@@ -62,6 +67,12 @@ export default function Navbar() {
                         Contact
                     </a>
                 </NavLink>
+                <NavLink href="/about">
+                    <a className="w-full sm:w-auto flex-none hover:text-white duration-200 text-md py-2 rounded mr-auto mr-0@m">
+                        About
+                    </a>
+                </NavLink>
+
             </div>
         </nav>
     </>;

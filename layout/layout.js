@@ -18,12 +18,12 @@ export default function Layout({
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content={`Ahmed B.${title && ` - ${title}`}`} />
                 <meta property="og:description" content="A Sysadmin and tech enthusiast from Egypt" />
-                <meta property="og:image" content="https://robert-s.dev/logo.webp" />
+                <meta property="og:image" content="" />
                 <meta name="theme-color" content="#F43F5E" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={`Ahmed B.${title && ` - ${title}`}`} />
                 <meta name="twitter:description" content="A Sysadmin and tech enthusiast from Egypt" />
-                <meta name="twitter:image" content="https://robert-s.dev/logo.webp" />
+                <meta name="twitter:image" content="" />
             </Head>
             <div className="flex flex-col min-h-screen">
                 <Navbar />
